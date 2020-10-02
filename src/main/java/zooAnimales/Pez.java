@@ -22,12 +22,12 @@ public class Pez extends Animal {
 	}
 	
 	public void crearSalmon(String nombre, int edad, String genero) {
-		listado.add(new Pez(nombre, edad, "océano", genero, "rojo", 6));
+		listado.add(new Pez(nombre, edad, "oceano", genero, "rojo", 6));
 		salmones++;
 	}
 	
 	public void crearBacalao(String nombre, int edad, String genero) {
-		listado.add(new Pez(nombre, edad, "océano", genero, "gris", 6));
+		listado.add(new Pez(nombre, edad, "oceano", genero, "gris", 6));
 		bacalaos++;
 	}
 	
